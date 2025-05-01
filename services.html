@@ -6,254 +6,178 @@
     <title>Our Services | Emoti Integrated Services Ltd</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- [Keep header and top bar same as previous] -->
-    
+    <!-- Top Bar and Header (same as about.html) -->
+    <!-- ... -->
+
     <!-- Page Header -->
-    <section class="services-header">
+    <section class="page-header">
         <div class="container">
-            <div class="header-content">
-                <h1>Our Comprehensive Services</h1>
-                <p>Delivering excellence across multiple sectors with tailored solutions for your business needs</p>
-                <div class="header-breadcrumb">
-                    <a href="index.html">Home</a> / <span>Services</span>
+            <h1>Our Services</h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Home</a> &raquo; <span>Services</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Services Content -->
+    <section class="services-page-section">
+        <div class="container">
+            <div class="services-intro">
+                <h2>Comprehensive Solutions for Your Business Needs</h2>
+                <p>At Emoti Integrated Services Ltd, we offer a wide range of professional services designed to meet the diverse needs of our clients. Our team of experts is committed to delivering high-quality solutions with efficiency and professionalism.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card-large">
+                    <div class="service-image">
+                        <img src="images/construction-service.jpg" alt="Construction">
+                    </div>
+                    <div class="service-details">
+                        <h3>Construction Services</h3>
+                        <p>We provide full-service construction solutions from planning to completion, ensuring the highest quality standards and attention to detail in every project we undertake.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Building construction</li>
+                            <li><i class="fas fa-check"></i> Renovation projects</li>
+                            <li><i class="fas fa-check"></i> Infrastructure development</li>
+                            <li><i class="fas fa-check"></i> Project management</li>
+                        </ul>
+                        <a href="construction.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card-large">
+                    <div class="service-image">
+                        <img src="images/general-contracts.jpg" alt="General Contracts">
+                    </div>
+                    <div class="service-details">
+                        <h3>General Contracts</h3>
+                        <p>Our comprehensive contractual services are tailored to meet diverse organizational needs with complete legal compliance and professional execution.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Procurement contracts</li>
+                            <li><i class="fas fa-check"></i> Service agreements</li>
+                            <li><i class="fas fa-check"></i> Government contracts</li>
+                            <li><i class="fas fa-check"></i> Vendor management</li>
+                        </ul>
+                        <a href="general-contracts.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card-large">
+                    <div class="service-image">
+                        <img src="images/hr-management.jpg" alt="HR Management">
+                    </div>
+                    <div class="service-details">
+                        <h3>HR Management</h3>
+                        <p>We specialize in Human Resource Management, offering tailored strategies and solutions to enhance workforce productivity and satisfaction.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Recruitment services</li>
+                            <li><i class="fas fa-check"></i> Training & development</li>
+                            <li><i class="fas fa-check"></i> Performance management</li>
+                            <li><i class="fas fa-check"></i> HR consulting</li>
+                        </ul>
+                        <a href="hr-management.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card-large">
+                    <div class="service-image">
+                        <img src="images/ict-solutions.jpg" alt="ICT Solutions">
+                    </div>
+                    <div class="service-details">
+                        <h3>ICT Solutions</h3>
+                        <p>We provide cutting-edge ICT innovations including software development, network infrastructure, e-Library solutions, and digital marketing strategies.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> ICT equipment supply</li>
+                            <li><i class="fas fa-check"></i> E-Library solutions</li>
+                            <li><i class="fas fa-check"></i> Network installation</li>
+                            <li><i class="fas fa-check"></i> Software development</li>
+                        </ul>
+                        <a href="ict-solutions.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card-large">
+                    <div class="service-image">
+                        <img src="images/consultancy.jpg" alt="Consultancy">
+                    </div>
+                    <div class="service-details">
+                        <h3>Consultancy Services</h3>
+                        <p>We offer expert consultancy services to help businesses optimize operations, develop strategies, and improve overall performance.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Business strategy</li>
+                            <li><i class="fas fa-check"></i> Operational efficiency</li>
+                            <li><i class="fas fa-check"></i> Market research</li>
+                            <li><i class="fas fa-check"></i> Financial consulting</li>
+                        </ul>
+                        <a href="consultancy.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="service-card-large">
+                    <div class="service-image">
+                        <img src="images/outsourcing.jpg" alt="Outsourcing">
+                    </div>
+                    <div class="service-details">
+                        <h3>Outsourcing Services</h3>
+                        <p>We manage outsourced services to optimize brand exposure and enhance user engagement, ensuring seamless integration of external resources.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Staff outsourcing</li>
+                            <li><i class="fas fa-check"></i> Process outsourcing</li>
+                            <li><i class="fas fa-check"></i> Facility management</li>
+                            <li><i class="fas fa-check"></i> Logistics services</li>
+                        </ul>
+                        <a href="outsourcing.html" class="btn">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Navigation -->
-    <nav class="services-nav">
+    <!-- Service Process -->
+    <section class="process-section">
         <div class="container">
-            <ul>
-                <li><a href="#construction" class="active"><i class="fas fa-building"></i> Construction</a></li>
-                <li><a href="#contracts"><i class="fas fa-file-contract"></i> Contracts</a></li>
-                <li><a href="#hr"><i class="fas fa-users"></i> HR Solutions</a></li>
-                <li><a href="#ict"><i class="fas fa-laptop-code"></i> ICT</a></li>
-                <li><a href="#consultancy"><i class="fas fa-briefcase"></i> Consultancy</a></li>
-                <li><a href="#outsourcing"><i class="fas fa-handshake"></i> Outsourcing</a></li>
-            </ul>
+            <h2 class="section-title">Our Service Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We begin by understanding your specific needs and requirements.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Planning</h3>
+                    <p>We develop a customized plan tailored to your objectives.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Execution</h3>
+                    <p>Our team implements the solution with precision and care.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Delivery</h3>
+                    <p>We deliver the completed project on time and within budget.</p>
+                </div>
+            </div>
         </div>
-    </nav>
+    </section>
 
-    <!-- Main Services Content -->
-    <main class="services-container">
-        <!-- Construction Service -->
-        <section id="construction" class="service-section">
-            <div class="service-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/construction-hero.jpg');">
-                <div class="container">
-                    <div class="hero-content">
-                        <h2><i class="fas fa-building"></i> Construction Services</h2>
-                        <p class="lead">Building Nigeria's infrastructure with precision and quality craftsmanship</p>
-                    </div>
-                </div>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need Our Services?</h2>
+            <p>Contact us today to discuss how we can help with your project or business needs.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn">Get a Quote</a>
+                <a href="tel:+2348030958707" class="btn btn-outline">Call Us Now</a>
             </div>
+        </div>
+    </section>
 
-            <div class="service-details">
-                <div class="container">
-                    <div class="service-intro">
-                        <h3>Complete Construction Solutions</h3>
-                        <p>Emoti Integrated Services delivers end-to-end construction services with an unwavering commitment to quality, safety, and timely delivery. Our expertise spans residential, commercial, and industrial projects across Nigeria.</p>
-                    </div>
-
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-home"></i>
-                            </div>
-                            <h4>Building Construction</h4>
-                            <ul>
-                                <li>Residential complexes</li>
-                                <li>Commercial buildings</li>
-                                <li>Educational facilities</li>
-                                <li>Institutional structures</li>
-                            </ul>
-                        </div>
-
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <h4>Renovation & Remodeling</h4>
-                            <ul>
-                                <li>Structural upgrades</li>
-                                <li>Interior transformations</li>
-                                <li>Facade improvements</li>
-                                <li>Facility modernization</li>
-                            </ul>
-                        </div>
-
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-road"></i>
-                            </div>
-                            <h4>Infrastructure Development</h4>
-                            <ul>
-                                <li>Road construction</li>
-                                <li>Drainage systems</li>
-                                <li>Utility installations</li>
-                                <li>Land development</li>
-                            </ul>
-                        </div>
-
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-clipboard-check"></i>
-                            </div>
-                            <h4>Project Management</h4>
-                            <ul>
-                                <li>Planning & scheduling</li>
-                                <li>Budget control</li>
-                                <li>Quality assurance</li>
-                                <li>Contract administration</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="why-choose">
-                        <h3>Why Choose Our Construction Services?</h3>
-                        <div class="benefits">
-                            <div class="benefit-item">
-                                <i class="fas fa-award"></i>
-                                <div>
-                                    <h4>Proven Expertise</h4>
-                                    <p>10+ years delivering quality construction projects</p>
-                                </div>
-                            </div>
-                            <div class="benefit-item">
-                                <i class="fas fa-shield-alt"></i>
-                                <div>
-                                    <h4>Safety First</h4>
-                                    <p>Rigorous safety protocols on all job sites</p>
-                                </div>
-                            </div>
-                            <div class="benefit-item">
-                                <i class="fas fa-hand-holding-usd"></i>
-                                <div>
-                                    <h4>Cost Efficiency</h4>
-                                    <p>Competitive pricing without compromising quality</p>
-                                </div>
-                            </div>
-                            <div class="benefit-item">
-                                <i class="fas fa-users"></i>
-                                <div>
-                                    <h4>Client Focused</h4>
-                                    <p>Tailored solutions for your specific needs</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="service-cta">
-                        <div class="cta-content">
-                            <h3>Ready to Start Your Construction Project?</h3>
-                            <p>Get a free consultation and quote from our experts</p>
-                        </div>
-                        <a href="contact.html" class="btn btn-large">Request a Quote</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- General Contracts Service -->
-        <section id="contracts" class="service-section">
-            <div class="service-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/contracts-hero.jpg');">
-                <div class="container">
-                    <div class="hero-content">
-                        <h2><i class="fas fa-file-contract"></i> General Contracts</h2>
-                        <p class="lead">Professional contracting solutions with legal compliance and efficiency</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="service-details">
-                <div class="container">
-                    <!-- Similar structure as construction section -->
-                    <!-- Content for General Contracts -->
-                </div>
-            </div>
-        </section>
-
-        <!-- HR Management Service -->
-        <section id="hr" class="service-section">
-            <div class="service-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hr-hero.jpg');">
-                <div class="container">
-                    <div class="hero-content">
-                        <h2><i class="fas fa-users"></i> HR Management</h2>
-                        <p class="lead">Strategic human resource solutions for organizational success</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="service-details">
-                <div class="container">
-                    <!-- Similar structure as construction section -->
-                    <!-- Content for HR Management -->
-                </div>
-            </div>
-        </section>
-
-        <!-- ICT Solutions Service -->
-        <section id="ict" class="service-section">
-            <div class="service-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/ict-hero.jpg');">
-                <div class="container">
-                    <div class="hero-content">
-                        <h2><i class="fas fa-laptop-code"></i> ICT Solutions</h2>
-                        <p class="lead">Cutting-edge technology solutions for education and business</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="service-details">
-                <div class="container">
-                    <!-- Similar structure as construction section -->
-                    <!-- Content for ICT Solutions -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Consultancy Service -->
-        <section id="consultancy" class="service-section">
-            <div class="service-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/consultancy-hero.jpg');">
-                <div class="container">
-                    <div class="hero-content">
-                        <h2><i class="fas fa-briefcase"></i> Consultancy Services</h2>
-                        <p class="lead">Expert advice and strategic solutions for business growth</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="service-details">
-                <div class="container">
-                    <!-- Similar structure as construction section -->
-                    <!-- Content for Consultancy -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Outsourcing Service -->
-        <section id="outsourcing" class="service-section">
-            <div class="service-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/outsourcing-hero.jpg');">
-                <div class="container">
-                    <div class="hero-content">
-                        <h2><i class="fas fa-handshake"></i> Outsourcing Services</h2>
-                        <p class="lead">Efficient outsourcing solutions to optimize your operations</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="service-details">
-                <div class="container">
-                    <!-- Similar structure as construction section -->
-                    <!-- Content for Outsourcing -->
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- [Keep footer same as previous] -->
+    <!-- Footer (same as about.html) -->
+    <!-- ... -->
 
     <script src="script.js"></script>
 </body>
